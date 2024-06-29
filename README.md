@@ -55,7 +55,7 @@ python3 quality_eval.py
 ```
 The result will be in ./full_eval_results/ours-Q
 
-## (4) Generate & Measure the FoV model's FPS
+## (4) Generate the FoV model & Measure its FPS
 ```bash
 bash batch_ours_fps.sh 
 ```
