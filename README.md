@@ -31,6 +31,8 @@ git clone https://github.com/horizon-research/FoV-3DGS.git
     ```bash
     # pull the docker (this is for x86 machine, for jetson you will need other prbuilt, see https://github.com/dusty-nv/jetson-containers/tree/master and find one that suitable for tour jetpack.)
     docker pull pytorch/pytorch:2.3.0-cuda11.8-cudnn8-devel
+    # run docker
+    bash ./run_docker.sh
     # go in to docker and install all submodules
     bash update_submodules.sh
     ```
