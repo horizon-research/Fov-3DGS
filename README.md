@@ -41,7 +41,7 @@ git clone https://github.com/horizon-research/FoV-3DGS.git
         apt-get install libgl1-mesa-glx libglib2.0-0 -y
     ```
 
-## (2) Run the end2end pruning & FR (Foveated Rendering) Masking pipeline
+## (2) Run the pruning & FR (Foveated Rendering) Masking pipeline
 ```bash
 # we only leave bicycle, uncomment other scenes for batch test
  python3 combined_training_script.py 
