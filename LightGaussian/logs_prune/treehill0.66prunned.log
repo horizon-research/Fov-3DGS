@@ -1,0 +1,30 @@
+Optimizing ./LightGS_results/treehill_0.66
+Output folder: ./LightGS_results/treehill_0.66 [19/06 04:34:42]
+Tensorboard not available: not logging progress [19/06 04:34:42]
+/workspace/3DGSs/m360/treehill [19/06 04:34:42]
+Reading camera 1/141Reading camera 2/141Reading camera 3/141Reading camera 4/141Reading camera 5/141Reading camera 6/141Reading camera 7/141Reading camera 8/141Reading camera 9/141Reading camera 10/141Reading camera 11/141Reading camera 12/141Reading camera 13/141Reading camera 14/141Reading camera 15/141Reading camera 16/141Reading camera 17/141Reading camera 18/141Reading camera 19/141Reading camera 20/141Reading camera 21/141Reading camera 22/141Reading camera 23/141Reading camera 24/141Reading camera 25/141Reading camera 26/141Reading camera 27/141Reading camera 28/141Reading camera 29/141Reading camera 30/141Reading camera 31/141Reading camera 32/141Reading camera 33/141Reading camera 34/141Reading camera 35/141Reading camera 36/141Reading camera 37/141Reading camera 38/141Reading camera 39/141Reading camera 40/141Reading camera 41/141Reading camera 42/141Reading camera 43/141Reading camera 44/141Reading camera 45/141Reading camera 46/141Reading camera 47/141Reading camera 48/141Reading camera 49/141Reading camera 50/141Reading camera 51/141Reading camera 52/141Reading camera 53/141Reading camera 54/141Reading camera 55/141Reading camera 56/141Reading camera 57/141Reading camera 58/141Reading camera 59/141Reading camera 60/141Reading camera 61/141Reading camera 62/141Reading camera 63/141Reading camera 64/141Reading camera 65/141Reading camera 66/141Reading camera 67/141Reading camera 68/141Reading camera 69/141Reading camera 70/141Reading camera 71/141Reading camera 72/141Reading camera 73/141Reading camera 74/141Reading camera 75/141Reading camera 76/141Reading camera 77/141Reading camera 78/141Reading camera 79/141Reading camera 80/141Reading camera 81/141Reading camera 82/141Reading camera 83/141Reading camera 84/141Reading camera 85/141Reading camera 86/141Reading camera 87/141Reading camera 88/141Reading camera 89/141Reading camera 90/141Reading camera 91/141Reading camera 92/141Reading camera 93/141Reading camera 94/141Reading camera 95/141Reading camera 96/141Reading camera 97/141Reading camera 98/141Reading camera 99/141Reading camera 100/141Reading camera 101/141Reading camera 102/141Reading camera 103/141Reading camera 104/141Reading camera 105/141Reading camera 106/141Reading camera 107/141Reading camera 108/141Reading camera 109/141Reading camera 110/141Reading camera 111/141Reading camera 112/141Reading camera 113/141Reading camera 114/141Reading camera 115/141Reading camera 116/141Reading camera 117/141Reading camera 118/141Reading camera 119/141Reading camera 120/141Reading camera 121/141Reading camera 122/141Reading camera 123/141Reading camera 124/141Reading camera 125/141Reading camera 126/141Reading camera 127/141Reading camera 128/141Reading camera 129/141Reading camera 130/141Reading camera 131/141Reading camera 132/141Reading camera 133/141Reading camera 134/141Reading camera 135/141Reading camera 136/141Reading camera 137/141Reading camera 138/141Reading camera 139/141Reading camera 140/141Reading camera 141/141 [19/06 04:34:42]
+Loading Training Cameras [19/06 04:34:42]
+Loading Test Cameras [19/06 04:34:46]
+Number of points at initialisation :  52363 [19/06 04:34:47]
+Training progress:   0%|          | 0/5000 [00:00<?, ?it/s]ic| 'report'
+ic| "Before prune iteration, number of gaussians: " + str(len(gaussians.get_xyz)): 'Before prune iteration, number of gaussians: 3873731'
+ic| import_score.shape: torch.Size([3873731])
+ic| "After prune iteration, number of gaussians: " + str(len(gaussians.get_xyz)): 'After prune iteration, number of gaussians: 1317069'
+ic| 'after'
+ic| gaussians.get_xyz.shape: torch.Size([1317069, 3])
+ic| len(gaussians.optimizer.param_groups[0]['params'][0]): 1317069
+ic| 'report'
+Training progress:   0%|          | 0/5000 [01:34<?, ?it/s, Loss=0.0812912]Training progress:  20%|██        | 1000/5000 [01:34<06:19, 10.54it/s, Loss=0.0812912]Training progress:  20%|██        | 1000/5000 [01:50<06:19, 10.54it/s, Loss=0.0812912]Training progress:  20%|██        | 1000/5000 [02:16<06:19, 10.54it/s, Loss=0.0811934]Training progress:  40%|████      | 2000/5000 [02:16<03:10, 15.76it/s, Loss=0.0811934]Training progress:  40%|████      | 2000/5000 [02:30<03:10, 15.76it/s, Loss=0.0811934]Training progress:  40%|████      | 2000/5000 [02:36<03:10, 15.76it/s, Loss=0.0784417]Training progress:  60%|██████    | 3000/5000 [02:36<01:27, 22.80it/s, Loss=0.0784417]Training progress:  60%|██████    | 3000/5000 [02:50<01:27, 22.80it/s, Loss=0.0784417]Training progress:  60%|██████    | 3000/5000 [02:57<01:27, 22.80it/s, Loss=0.0932351]Training progress:  80%|████████  | 4000/5000 [02:57<00:34, 28.77it/s, Loss=0.0932351]Training progress:  80%|████████  | 4000/5000 [03:10<00:34, 28.77it/s, Loss=0.0932351]Training progress:  80%|████████  | 4000/5000 [03:18<00:34, 28.77it/s, Loss=0.0815671]Training progress: 100%|██████████| 5000/5000 [03:18<00:00, 33.51it/s, Loss=0.0815671]Training progress: 100%|██████████| 5000/5000 [03:18<00:00, 25.15it/s, Loss=0.0815671]
+ic| 'report'
+
+[ITER 30001] Evaluating test: L1 0.04652233380410406 PSNR 22.52380530039469 SSIM 0.6327001518673366 LPIPS 0.3267883178260591 [19/06 04:35:13]
+
+[ITER 30002] Evaluating test: L1 0.051044989584220775 PSNR 21.58849451276991 SSIM 0.5993304053942362 LPIPS 0.35944248404767776 [19/06 04:35:41]
+
+[ITER 35000] Saving Gaussians [19/06 04:38:07]
+
+[ITER 35000] Saving Checkpoint [19/06 04:38:15]
+
+[ITER 35000] Evaluating test: L1 0.0465045492682192 PSNR 22.5669043858846 SSIM 0.6297388937738206 LPIPS 0.3371913913223478 [19/06 04:38:44]
+
+Training complete. [19/06 04:38:44]

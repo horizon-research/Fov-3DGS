@@ -1,0 +1,8 @@
+[submodule "submodules/simple-knn"]
+	path = submodules/simple-knn
+	url = https://gitlab.inria.fr/bkerbl/simple-knn.git
+
+
+[submodule "submodules/compress-diff-gaussian-rasterization"]
+	path = submodules/compress-diff-gaussian-rasterization
+	url = https://github.com/Kevin-2017/compress-diff-gaussian-rasterization.git
