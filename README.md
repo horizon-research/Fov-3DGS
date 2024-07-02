@@ -1,6 +1,6 @@
 # FoV-3DGS
 Official Implementation of **RTGS: Enabling Real-Time Gaussian Splatting on
-Mobile Devices Using Efficiency-Guided Pruning and Foveated Rendering.** [[Paper]()]
+Mobile Devices Using Efficiency-Guided Pruning and Foveated Rendering.** [[Paper](https://arxiv.org/abs/2407.00435)]
 
 ## (1) Setup
 - Clone the repo
@@ -15,7 +15,7 @@ git clone https://github.com/horizon-research/FoV-3DGS.git
 - Prepare Dense 3DGS for pruning
     - Original 3DGS: download from [3DGS](https://github.com/graphdeco-inria/gaussian-splatting)
     - Mini-Splatting-D: We provide our reprodeuced model of m360 bicycle [here](https://drive.google.com/file/d/1H2XhS1Jh-Pd-W8NvA4Z0bLlUADcJhAj5/view), for other scenes, you can reproduce using [their code](https://github.com/fatPeter/mini-splatting/tree/main).
-    - move the dense model to the scene folder and name it "ms_d", structure undert the folder should be like:
+    - move the dense model to the scene folder and name it "ms_d", structure under the folder should be like:
     ```bash
     |-- cameras.json
     |-- cfg_args
