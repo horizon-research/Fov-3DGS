@@ -1,6 +1,6 @@
 # FoV-3DGS
-Official Implementation of **RTGS: Enabling Real-Time Gaussian Splatting on
-Mobile Devices Using Efficiency-Guided Pruning and Foveated Rendering.** [[Paper](https://arxiv.org/abs/2407.00435)]
+Official Implementation of **MetaSapiens: Real-Time Neural Rendering with Efficiency-Aware Pruning and Accelerated Foveated Rendering.** [[Project Page](https://horizon-lab.org/metasapiens/)]
+(ASPLOS 2025)
 
 ## (1) Setup
 - Clone the repo
