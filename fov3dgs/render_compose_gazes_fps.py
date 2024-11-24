@@ -55,7 +55,7 @@ def render_set(out_path, name, iteration, views, gaussians, pipeline, background
         for idx, view in enumerate(tqdm(views, desc="Rendering progress")):
             time = 0
             for i in range(5):
-                blending_rendering = render(view, gaussians, background, alpha=0.05, gazeArray = gazeArray, blending=False, starter= starter, ender= ender, highest_levels=highest_levels, shs_dcs=shs_dcs, opacities=opacities)["render"]
+                blending_rendering = render(view, gaussians, background, alpha=0.05, gazeArray = gazeArray, blending=True, starter= starter, ender= ender, highest_levels=highest_levels, shs_dcs=shs_dcs, opacities=opacities)["render"]
                 torch.cuda.synchronize()
                 time += starter.elapsed_time(ender)
             
